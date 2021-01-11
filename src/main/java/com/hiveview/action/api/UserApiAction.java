@@ -36,7 +36,7 @@ public class UserApiAction {
 			user.setName("张三");
 			user.setAge(20);
 			user.setPhone("18811583145");
-			Integer.parseInt("asdf");
+//			Integer.parseInt("asdf");
 			return Data.buildSuccess(user);
 		} catch (Exception e) {
 			// TODO: handle exception
